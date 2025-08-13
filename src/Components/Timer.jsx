@@ -32,7 +32,7 @@ export default function App() {
     } else {
       clearInterval(intervalRef.current);
     }
-    console.log(intervalRef.current);
+    // console.log(intervalRef.current);
     
 
     // Cleanup on unmount
